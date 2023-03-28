@@ -28,4 +28,16 @@ body {
 main {
   border: 1px black;
   border-style: solid;
+  max-width: 21rem;
+  background-color: white;
+}
+
+img {
+  max-width: 100%;
+}
+
+.profile {
+  border-radius: 50%;
+  border: 5px white;
+  border-style: solid;
 }/*# sourceMappingURL=main.css.map */
