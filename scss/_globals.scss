@@ -1,0 +1,37 @@
+@use './colors' as *;
+
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    height: 100vh;
+    background-color: $cyan;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+    background-image:
+        url(/images/bg-pattern-top.svg), //top
+        url(/images/bg-pattern-bottom.svg); //bottom
+    background-position: 
+        bottom 10rem left -20rem, //top img
+        top 20rem right -20rem; //bottom img
+    background-repeat: no-repeat;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
+.attribution{
+    text-align: center;
+    margin-top: 1rem;
+    padding: 0.1rem;
+    color: $white; 
+    a{
+        color: $normal;
+        text-decoration: none;
+    }
+    a:hover{
+        color: $sky;
+    }
+}

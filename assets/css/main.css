@@ -1,0 +1,44 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  background-color: hsl(185, 75%, 39%);
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 18px;
+  background-image: url(/images/bg-pattern-top.svg), url(/images/bg-pattern-bottom.svg);
+  background-position: bottom 10rem left -20rem, top 20rem right -20rem;
+  background-repeat: no-repeat;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+
+.attribution {
+  text-align: center;
+  margin-top: 1rem;
+  padding: 0.1rem;
+  color: hsl(0, 50%, 98%);
+}
+.attribution a {
+  color: rgba(238, 238, 238, 0.7333333333);
+  text-decoration: none;
+}
+.attribution a:hover {
+  color: #00FFF5;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid white;
+  max-width: 100%;
+  border-radius: 0.72rem;
+  background-color: white;
+}
+
+/*# sourceMappingURL=main.css.map */
