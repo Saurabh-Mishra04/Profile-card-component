@@ -31,54 +31,82 @@ body {
   color: #00FFF5;
 }
 
+@media screen and (min-width: 375px) and (max-width: 900px) {
+  body {
+    background-image: url(/images/bg-pattern-top.svg), url(/images/bg-pattern-bottom.svg);
+    background-position: bottom left, top right;
+  }
+}
 main {
-  background-color: hsl(0, 50%, 98%);
+  background-color: white;
   position: relative;
-  max-width: 21.9rem;
+  width: 22.5rem;
+  height: 23.45rem;
   border-radius: 0.72rem;
 }
 
 .image1 {
   border-top-right-radius: 0.72rem;
   border-top-left-radius: 0.72rem;
-  max-width: 100%;
+  width: 100%;
 }
 
 .image2 {
   position: absolute;
   top: 5em;
-  left: 6.5em;
+  left: 7em;
   border-radius: 50%;
   border: 5px solid hsl(0, 50%, 98%);
 }
 
-/*{
-    background-color: $white;
-}
-*/
 .name {
-  border: 1px solid #00FFF5;
+  max-height: 148px;
 }
 
 h1 {
-  border: 1px solid hsl(0, 0%, 59%);
-  font-size: 1.5rem;
-  margin-top: 3.4rem;
-  background-color: hsl(0, 50%, 98%);
+  margin-top: 4rem;
+  font-size: 18px;
   font-weight: 700;
   text-align: center;
   color: hsl(229, 23%, 23%);
 }
 h1 span {
-  font-weight: 400;
-  color: hsl(227, 10%, 46%);
+  margin: 0 0 0 5px;
+  font-weight: 700;
+  color: hsl(0, 0%, 59%);
 }
 
 .city {
-  font-weight: 400;
+  padding: 0;
+  margin-bottom: 1.625rem;
+  font-weight: 700;
   color: hsl(0, 0%, 59%);
-  border: 1px solid red;
+  font-size: 15px;
   text-align: center;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  border-top: 1px solid hsl(224, 22%, 87%);
+  justify-content: space-evenly;
+}
+.info div {
+  padding: 20px 0px 0 0px;
+  text-align: center;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 700;
+  color: hsl(229, 23%, 23%);
+  margin: 0;
+}
+p .cap {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: hsl(0, 0%, 59%);
 }
 
 /*# sourceMappingURL=main.css.map */
