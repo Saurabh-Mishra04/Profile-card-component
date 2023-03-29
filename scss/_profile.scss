@@ -1,0 +1,21 @@
+@use './colors' as *;
+
+main{
+    background-color: $white;
+    position: relative;
+    max-width: 21.9rem;
+    border-radius: 0.720rem;
+}
+.image1{
+    border-top-right-radius: 0.720rem;
+    border-top-left-radius: 0.720rem;
+    max-width: 100%;
+}
+.image2{
+    position: absolute;
+    top: 5em;
+    left: 6.5em;
+    border-radius: 50%;
+    border: 5px solid $white;
+}
+

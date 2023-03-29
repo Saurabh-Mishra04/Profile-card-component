@@ -11,9 +11,10 @@ body {
   background-image: url(/images/bg-pattern-top.svg), url(/images/bg-pattern-bottom.svg);
   background-position: bottom 10rem left -20rem, top 20rem right -20rem;
   background-repeat: no-repeat;
-  display: grid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
-  align-content: center;
 }
 
 .attribution {
@@ -31,14 +32,53 @@ body {
 }
 
 main {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  border: 1px solid white;
-  max-width: 100%;
+  background-color: hsl(0, 50%, 98%);
+  position: relative;
+  max-width: 21.9rem;
   border-radius: 0.72rem;
-  background-color: white;
+}
+
+.image1 {
+  border-top-right-radius: 0.72rem;
+  border-top-left-radius: 0.72rem;
+  max-width: 100%;
+}
+
+.image2 {
+  position: absolute;
+  top: 5em;
+  left: 6.5em;
+  border-radius: 50%;
+  border: 5px solid hsl(0, 50%, 98%);
+}
+
+/*{
+    background-color: $white;
+}
+*/
+.name {
+  border: 1px solid #00FFF5;
+}
+
+h1 {
+  border: 1px solid hsl(0, 0%, 59%);
+  font-size: 1.5rem;
+  margin-top: 3.4rem;
+  background-color: hsl(0, 50%, 98%);
+  font-weight: 700;
+  text-align: center;
+  color: hsl(229, 23%, 23%);
+}
+h1 span {
+  font-weight: 400;
+  color: hsl(227, 10%, 46%);
+}
+
+.city {
+  font-weight: 400;
+  color: hsl(0, 0%, 59%);
+  border: 1px solid red;
+  text-align: center;
 }
 
 /*# sourceMappingURL=main.css.map */

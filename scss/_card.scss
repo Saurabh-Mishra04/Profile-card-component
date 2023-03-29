@@ -1,11 +1,28 @@
-//
-main{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    border: 1px solid white;
-    max-width: 100%;
-    border-radius: 0.720rem;
-    background-color: white;
+@use './colors' as *;
+
+/*{
+    background-color: $white;
+}
+*/
+.name{
+    border: 1px solid $sky;
+}
+h1{
+    border: 1px solid $gray;
+    font-size: 1.5rem;
+    margin-top: 3.4rem;
+    background-color: $white;
+    font-weight: 700;
+    text-align: center;
+    color: $darkblue;
+    span{
+        font-weight: 400;
+        color: $grayishblue;
+    }
+}
+.city{
+    font-weight: 400;
+    color: $gray;
+    border: 1px solid red;
+    text-align: center;
 }
