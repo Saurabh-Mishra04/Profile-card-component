@@ -20,8 +20,9 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Screenshot
 
-![](../../../../../Downloads/Screenshot%202023-03-30%20at%2020-16-39%20Frontend%20Mentor%20Profile%20card%20component.png)
-![](../../../../../Downloads/Screenshot%202023-03-30%20at%2020-18-48%20Frontend%20Mentor%20Profile%20card%20component.png)
+![Screenshot 2023-03-30 at 20-16-39 Frontend Mentor Profile card component](https://user-images.githubusercontent.com/82585860/228879154-2f60bfa2-2fca-4a14-b93d-b3e3977660f2.png)
+
+![Screenshot 2023-03-30 at 20-18-48 Frontend Mentor Profile card component](https://user-images.githubusercontent.com/82585860/228879183-14ed6953-26a6-4b23-9598-63b1a13fd467.png)
 
 
 ### Links
