@@ -23,12 +23,10 @@ body {
   padding: 0.1rem;
   color: hsl(0, 50%, 98%);
 }
-
 .attribution a {
   color: rgba(238, 238, 238, 0.7333333333);
   text-decoration: none;
 }
-
 .attribution a:hover {
   color: #00FFF5;
 }
@@ -66,7 +64,6 @@ h1 {
   text-align: center;
   color: hsl(229, 23%, 23%);
 }
-
 h1 span {
   margin: 0 0 0 5px;
   font-weight: 700;
@@ -88,7 +85,6 @@ h1 span {
   border-top: 1px solid hsl(224, 22%, 87%);
   justify-content: space-evenly;
 }
-
 .info div {
   padding: 20px 0px 0 0px;
   text-align: center;
@@ -100,7 +96,6 @@ p {
   color: hsl(229, 23%, 23%);
   margin: 0;
 }
-
 p .cap {
   font-size: 11px;
   font-weight: 700;
@@ -131,6 +126,4 @@ p .cap {
   .image2 {
     left: 6.5em;
   }
-} 
-
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
