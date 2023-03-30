@@ -19,16 +19,16 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 - Build out the project to the designs provided
 
 ### Screenshot
-
+Desktop
 ![Screenshot 2023-03-30 at 20-16-39 Frontend Mentor Profile card component](https://user-images.githubusercontent.com/82585860/228879154-2f60bfa2-2fca-4a14-b93d-b3e3977660f2.png)
-
+Mobile
 ![Screenshot 2023-03-30 at 20-18-48 Frontend Mentor Profile card component](https://user-images.githubusercontent.com/82585860/228879183-14ed6953-26a6-4b23-9598-63b1a13fd467.png)
 
 
 ### Links
 
-- Solution URL: [Frontend Mentor](https://your-solution-url.com)
-- Live Site URL: [Github pages](https://your-live-site-url.com)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-profilecardcomponent-idZObscwbO)
+- Live Site URL: [Github pages](https://saurabh-mishra04.github.io/Profile-card-component/)
 
 ## My process
 
