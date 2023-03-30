@@ -36,14 +36,3 @@ body{
         color: $sky;
     }
 }
-//responive
-@media screen and (min-width: 375px) and (max-width: 900px) {
-    body{
-        background-image:
-        url(/images/bg-pattern-top.svg), //top
-        url(/images/bg-pattern-bottom.svg); //bottom
-    background-position: 
-        bottom  left , //top img
-        top  right ; 
-    }
-}

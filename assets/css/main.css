@@ -31,12 +31,6 @@ body {
   color: #00FFF5;
 }
 
-@media screen and (min-width: 375px) and (max-width: 900px) {
-  body {
-    background-image: url(/images/bg-pattern-top.svg), url(/images/bg-pattern-bottom.svg);
-    background-position: bottom left, top right;
-  }
-}
 main {
   background-color: white;
   position: relative;
