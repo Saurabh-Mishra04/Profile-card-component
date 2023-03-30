@@ -8,7 +8,7 @@ body {
   background-color: hsl(185, 75%, 39%);
   font-family: "Kumbh Sans", sans-serif;
   font-size: 18px;
-  background-image: url(./images/bg-pattern-top.svg), url(./images/bg-pattern-bottom.svg);
+  background-image: url(../../images/bg-pattern-top.svg), url(../../images/bg-pattern-bottom.svg);
   background-position: bottom 16rem left -18rem, top 22rem right -15rem;
   background-repeat: no-repeat;
   display: flex;
@@ -105,19 +105,19 @@ p .cap {
 
 @media screen and (max-width: 1000px) {
   body {
-    background-image: url(/images/bg-pattern-top.svg), url(/images/bg-pattern-bottom.svg);
+    background-image: url(../../images/bg-pattern-top.svg), url(../../images/bg-pattern-bottom.svg);
     background-position: bottom 25rem left -28rem, top 25rem right -28rem;
   }
 }
 @media screen and (max-width: 700px) {
   body {
-    background-image: url(/images/bg-pattern-top.svg), url(/images/bg-pattern-bottom.svg);
+    background-image: url(../../images/bg-pattern-top.svg), url(../../images/bg-pattern-bottom.svg);
     background-position: bottom 25rem left -38rem, top 25rem right -38rem;
   }
 }
 @media screen and (max-width: 400px) {
   body {
-    background-image: url(/images/bg-pattern-top.svg), url(/images/bg-pattern-bottom.svg);
+    background-image: url(../../images/bg-pattern-top.svg), url(../../images/bg-pattern-bottom.svg);
     background-position: bottom 18rem left -47rem, top 16rem right -46rem;
   }
   main {
